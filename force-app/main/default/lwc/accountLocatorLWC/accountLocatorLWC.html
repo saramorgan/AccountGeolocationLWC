@@ -1,0 +1,24 @@
+<template>
+    <div class="c-container">
+        <lightning-layout multiple-rows="true">
+            <lightning-layout-item padding="around-small" size="12">
+                <div class="slds-box slds-theme_default">
+                    <c-account-search-l-w-c ></c-account-search-l-w-c>
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="12">
+                <lightning-layout>
+                    <lightning-layout-item padding="around-small" size="6">
+                        <div class="slds-box slds-theme_default">
+                            <c-account-list-l-w-c></c-account-list-l-w-c>
+                        </div>
+                    </lightning-layout-item>
+                    <lightning-layout-item padding="around-small" size="6">
+                        <div class="slds-box slds-theme_default">
+                            <c-account-map-l-w-c></c-account-map-l-w-c>                       </div>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

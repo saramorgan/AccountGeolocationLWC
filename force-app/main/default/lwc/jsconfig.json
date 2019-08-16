@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/accountListItem": [
+                "accountListItem/accountListItem.js"
+            ],
+            "c/accountListLWC": [
+                "accountListLWC/accountListLWC.js"
+            ],
+            "c/accountLocatorLWC": [
+                "accountLocatorLWC/accountLocatorLWC.js"
+            ],
+            "c/accountMapLWC": [
+                "accountMapLWC/accountMapLWC.js"
+            ],
+            "c/accountSearchLWC": [
+                "accountSearchLWC/accountSearchLWC.js"
+            ],
+            "c/auraPubSub": [
+                "auraPubSub/auraPubSub.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
